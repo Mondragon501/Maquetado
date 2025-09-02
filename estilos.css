@@ -1,0 +1,128 @@
+/* estilos.css */
+#contenedor {
+    width: 90%;
+    margin: auto;
+    background-color: #7D7D7D;
+    color: white;
+}
+
+#encabezado {
+    text-align: center;
+    background-color: #EFD80E;
+    align-self: center;
+}
+
+#menu1 {
+    background-color: #646464;
+    text-align: center;
+    padding: 15px 0; /* Espacio interno para el menú */
+}
+
+#menu1 h5 {
+    margin: 0; /* Elimina el margen por defecto del h5 */
+}
+
+#menu1 a {
+    color: white;           /* Color blanco para los enlaces */
+    text-decoration: none;  /* Quita el subrayado */
+    margin: 0 20px;         /* Separa los enlaces horizontalmente */
+    padding: 8px 0;         /* Espacio interno vertical */
+    display: inline-block;  /* Permite aplicar margin y padding correctamente */
+}
+
+#menu1 a:hover {
+    color: orange;          /* Color naranja al pasar el mouse */
+}
+
+#derecha {
+    float: right;
+    background-color: #B4B3A8;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#izquierda {
+    background-color: #646464;
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+#izquierda a {
+    color: white;           
+    text-decoration: none;  
+    display: block;         
+    padding: 8px 0;         
+}
+
+#izquierda a:hover {
+    color: orange;          
+}
+
+#piepagina {
+    clear: both;
+    background-color: #8F0884;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.span1 { width: 8.33%; }
+.span2 { width: 16.66%; }
+.span3 { width: 25%; }
+.span4 { width: 33.33%; }
+.span5 { width: 41.66%; }
+.span6 { width: 50%; }
+.span7 { width: 58.33%; }
+.span8 { width: 66.66%; }
+.span9 { width: 75%; }
+.span10 { width: 83.33%; }
+.span11 { width: 91.66%; }
+.span12 { width: 100%; }
+
+[class*="span"] {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.align-center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-left { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.align-right { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
